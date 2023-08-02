@@ -13,7 +13,7 @@ const readline = require("readline").createInterface({
 /**
  * Return the corresponding amount of vowels in a string
  * @param  sentence - SENTENCE TO BE COUNTED
- * @returns - RETURN NUMBER OF VOWE,S
+ * @returns - RETURN NUMBER OF VOWElS
  */
 function countVowels(sentence) {
   let vowels = "aeiouAEIOU";
