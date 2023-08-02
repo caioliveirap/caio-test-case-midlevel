@@ -5,6 +5,11 @@ const readline = require("readline").createInterface({
 
 //Time complexity: O(n)
 //Space complexity: O(1)
+/**
+ * Return the factorial of the number
+ * @param  number - NUMBER
+ * @returns - RETURN FACTORIAL
+ */
 function factorial(n) {
   let factorial = 1;
   for (let i = n; i > 0; i--) {
@@ -15,6 +20,11 @@ function factorial(n) {
 
 //Time complexity: O(n)
 //Space complexity: O(1)
+/**
+ * Return the factorial of the number (it uses recursion)
+ * @param  number - NUMBER
+ * @returns - RETURN FACTORIAL
+ */
 function recursiveFactorial(n) {
   if (n === 0) {
     return 1;
