@@ -13,7 +13,7 @@ const readline = require("readline").createInterface({
 //Space complexity: O(1)
 /**
  * Return if the word is a palindrome ("It works exclusively with words")
- * @param  word - NUMBER
+ * @param  word - WORD TO CHECK
  * @returns - RETURN TRUE OR FALSE
  */
 function isPalindrome(word) {
