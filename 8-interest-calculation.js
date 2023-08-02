@@ -32,7 +32,7 @@ function interestRateCalculation(
 function getUserInput() {
   readline.question("Enter the initial capital: ", (initialCapital) => {
     readline.question(
-      "Enter the interest rate (as a percentage): ",
+      "Enter the yearly interest rate (as a percentage): ",
       (interestRate) => {
         readline.question(
           "Enter the investment time (in months): ",

@@ -1,4 +1,4 @@
-/** QUESTION 2: Simple calculator
+/** QUESTION 1: Simple calculator
  * Create a calculator that takes two numbers and an operator (+, -, *, /)
  * and returns the result of the operation.
  */
@@ -31,4 +31,7 @@ function calculator(number1, number2, operator) {
   }
 }
 
-console.log(calculator(5, 2, "*"));
+console.log("5 * 2 = ", calculator(5, 2, "*"));
+console.log("7 + 9 = ", calculator(7, 9, "+"));
+console.log("16 / 4 = ", calculator(16, 4, "/"));
+console.log("15 - 3 = ", calculator(5, 2, "-"));

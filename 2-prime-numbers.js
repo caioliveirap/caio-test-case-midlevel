@@ -32,6 +32,7 @@ console.log(isPrime(13)); // true
 function first10PrimeNumbers() {
   let count = 0;
   let iterations = 0;
+  console.log("Displaying first 10 prime numbers: ");
   while (iterations != 10) {
     if (isPrime(count)) {
       console.log(count);
