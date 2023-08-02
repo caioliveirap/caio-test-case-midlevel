@@ -1,4 +1,4 @@
-/** QUESTION 5
+/** QUESTION 5: Table
  * Create a program that receives a number from the user and displays
  * the table of that number, from 1 to 10.
  */
